@@ -10,7 +10,7 @@ export default function LiveCard() {
   return (
     <div className="">
       <Card className="border-2 border-solid border-purple-700">
-        <Header text="Live" num="#218497" Bg="text-purple-700">
+        <Header text="LIVE" num="#218497" Bg="text-purple-700">
           <MdOutlinePlayCircleOutline className="text-purple-700" />
         </Header>
         <ProgressBar />
@@ -50,7 +50,7 @@ export default function LiveCard() {
             <Detail className="border-pink-500 p-4">
               <h1 className="font-bold text-md">LAST PRICE</h1>
               <div className="flex justify-between mt-4">
-                <p className="font-extrabold text-[1.5rem] underline text-pink-500">
+                <p className="font-extrabold text-[1.5rem] underline decoration-dotted text-pink-500">
                   $228.5332
                 </p>
 

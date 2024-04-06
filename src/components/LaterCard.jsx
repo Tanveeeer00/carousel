@@ -39,7 +39,7 @@ export default function LaterCard() {
         </svg>
 
         <div className="flex justify-center">
-          <Detail className="border-gray-300 shadow-xl p-4 w-[13rem] h-[10rem]">
+          <Detail className="border-gray-300 shadow-xl p-4 w-[19rem] h-[7rem]">
             <div className="flex flex-col justify-center items-center mt-1">
               <p className="font-extrabold text-lg">Entry starts</p>
               <p className="font-extrabold text-2xl">~00:38</p>

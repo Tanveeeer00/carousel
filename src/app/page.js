@@ -10,7 +10,7 @@ export default function Home() {
       <div className="mt-5 fixed w-full">
         <Navbar />
       </div>
-      <div className="flex items-center min-h-screen h-auto overflow-x-scroll w-[130rem] gap-5">
+      <div className="flex items-center min-h-screen h-auto overflow-x-scroll mt-5 w-[130rem] gap-5">
         <ExpiredCard />
         <LiveCard />
         <NextCard />

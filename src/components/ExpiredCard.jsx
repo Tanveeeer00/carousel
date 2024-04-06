@@ -11,7 +11,7 @@ export default function ExpiredCard() {
   return (
     <div className="flex gap-5">
       {ExpiredData.map((index) => (
-        <Card key={index.id} className="opacity-90">
+        <Card key={index.id} className="opacity-70">
           <Header
             text="Expired"
             num={index.hash}

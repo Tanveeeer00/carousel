@@ -67,7 +67,7 @@ export default function NextCard() {
           <svg
             viewBox="0 0 240 65"
             color="text"
-            fill="#ec4899"
+            fill="#cbd5e1"
             xmlns="http://www.w3.org/2000/svg"
             class="sc-grXZZQ ktVOoD"
           >
@@ -79,16 +79,16 @@ export default function NextCard() {
               x="82"
               y="20"
               font-size="12"
-              fill="#fff"
+              fill="#4c1d95"
               className="font-bold"
             >
-              1.87x Payout
+              1.07x Payout
             </text>
             <text
               x="92"
               y="40"
               font-size="20"
-              fill="#fff"
+              fill="#ec4899"
               className="font-bold"
             >
               Down
