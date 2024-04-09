@@ -50,8 +50,8 @@ export default function LaterCard() {
         <div className="mr-2">
           <svg
             viewBox="0 0 240 65"
-            color="text"
-            fill="#cbd5e1"
+            color="#cbd5e1"
+            fill="#e5e7eb"
             xmlns="http://www.w3.org/2000/svg"
             class="sc-grXZZQ ktVOoD"
           >

@@ -8,7 +8,7 @@ import { GiBackwardTime } from "react-icons/gi";
 
 export default function Navbar() {
   return (
-    <div className="grid grid-cols-3 mx-2 mt-5 w-full sticky">
+    <div className="grid md:grid-cols-3 gap-2 justify-center px-2 mt-5 w-full sticky">
       <div className="flex items-center bg-white rounded-full w-[16rem] pr-3 h-10">
         <Image
           src="/BNB.svg"
@@ -21,7 +21,7 @@ export default function Navbar() {
         <p className="font-bold text-sm text-purple-700">$228.5332</p>
       </div>
       <div className="flex justify-center">
-        <div className="flex items-center justify-between px-3 rounded-full w-[7rem] bg-white">
+        <div className="flex items-center justify-between px-3 rounded-full w-[6rem] h-[2.5rem] bg-white">
           <p>
             <FaArrowLeft className="text-teal-400" />
           </p>
