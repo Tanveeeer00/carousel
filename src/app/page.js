@@ -6,14 +6,16 @@ import NextCard from "@/components/NextCard";
 
 export default function Home() {
   return (
-    <div className=" bg-indigo-200 w-full fixed">
+    <div className=" bg-indigo-200 w-full px-3 fixed">
       <Navbar />
 
-      <div className="flex items-center min-h-screen w-full px-3 h-auto mt-2 overflow-x-auto gap-5">
-        <ExpiredCard />
-        <LiveCard />
-        <NextCard />
-        <LaterCard />
+      <div className="min-h-screen w-full mt-12 overflow-x-auto ">
+        <div className="flex items-center gap-5">
+          <ExpiredCard />
+          <LiveCard />
+          <NextCard />
+          <LaterCard />
+        </div>
       </div>
     </div>
   );
