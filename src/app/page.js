@@ -6,7 +6,7 @@ import NextCard from "@/components/NextCard";
 
 export default function Home() {
   return (
-    <div className=" bg-indigo-200 w-full px-3 fixed">
+    <div className=" bg-indigo-200 w-full fixed">
       <Navbar />
 
       <div className="min-h-screen w-full mt-12 overflow-x-auto ">
